@@ -4,6 +4,15 @@ Avaliação da quinta sprint do programa de bolsas Compass UOL para formação e
 
 ***
 
+# Grupo-2
+
+- [Ana Vitória Louro](https://github.com/anaVitoriaLouro)
+- [Bernardo Lima](https://github.com/belima93)
+- [Diego Lopes](https://github.com/Diegox0301)
+- [Luciene Godoy](https://github.com/LucieneGodoy)
+
+
+
 ## Execução (Código Fonte)
 
 Proceder o treinamento de um dataset para posterior reconhecimento.
