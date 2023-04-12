@@ -45,3 +45,8 @@ Proceder o treinamento de um dataset para posterior reconhecimento.
   - como utilizar o sistema
   - 🔨 código fonte desenvolvido (Sugestão: pasta `src`)
 - O prazo de entrega é até às 12h do dia 17/04/2023 no repositório do github ([https://github.com/Compass-pb-aws-2023-Univesp/sprint-5-pb-aws-univesp](https://github.com/Compass-pb-aws-2023-Univesp/sprint-5-pb-aws-univesp)).
+
+
+## Desenvolvedores do projeto
+| [<img src="https://avatars.githubusercontent.com/u/25699466?v=4" width=115><br><sub>Bruno Monserrat Perillo</sub>](https://github.com/brunoperillo) | [<img src="https://avatars.githubusercontent.com/u/124359272?v=4" width=115><br><sub>Irati Gonçalves Maffra</sub>](https://github.com/IratiMaffra) | [<img src="https://avatars.githubusercontent.com/u/35769020?v=4" width=115><br><sub>Marcio Lima Brunelli</sub>](https://github.com/ml-brunelli) | [<img src="https://avatars.githubusercontent.com/u/73674662?v=4" width=115><br><sub>Marcos Vinicios Nativo de Carvalho</sub>](https://github.com/onativo) | [<img src="https://avatars.githubusercontent.com/u/94749597?v=4" width=115><br><sub>O'Dhara Maggi</sub>](https://github.com/odharamaggi) |
+| :---: | :---: | :---: |:---: |:---: |
