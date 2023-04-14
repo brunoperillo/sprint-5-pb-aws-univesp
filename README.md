@@ -4,14 +4,23 @@ Avaliação da quinta sprint do programa de bolsas Compass UOL para formação e
 
 ***
 
-# Grupo-2
+## Grupo-2
 
 - [Ana Vitória Louro](https://github.com/anaVitoriaLouro)
 - [Bernardo Lima](https://github.com/belima93)
 - [Diego Lopes](https://github.com/Diegox0301)
 - [Luciene Godoy](https://github.com/LucieneGodoy)
 
+***
+## Objetivo
 
+Execução de treinamento de dataset (rock_paper_scissor) para posterior reconhecimento.
+
+<div align="center">
+
+![rock-paper-scissor](https://user-images.githubusercontent.com/81330043/232077729-91c7d1e3-5403-48e9-a713-e1dcf7cca685.png)
+
+</div>
 
 ## Execução (Código Fonte)
 
