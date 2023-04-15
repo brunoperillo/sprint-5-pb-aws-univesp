@@ -12,20 +12,19 @@ Avaliação da quinta sprint do programa de bolsas Compass UOL para formação e
 - [Luciene Godoy](https://github.com/LucieneGodoy)
 
 ***
-<<<<<<< HEAD
 
-[## Rock Paper Scissors AI - Reconhecimento de imagens](https://www.tensorflow.org/datasets/catalog/rock_paper_scissors?hl=pt-br)
-=======
+# Rock Paper Scissors AI - Reconhecimento de imagens
+
 ## Objetivo
 
-Execução de treinamento de dataset (rock_paper_scissor) para posterior reconhecimento.
+Execução de treinamento de dataset [rock_paper_scissor](https://www.tensorflow.org/datasets/catalog/rock_paper_scissors?hl=pt-br) para posterior reconhecimento.
 
 <div align="center">
 
 ![rock-paper-scissor](https://user-images.githubusercontent.com/81330043/232077729-91c7d1e3-5403-48e9-a713-e1dcf7cca685.png)
 
 </div>
->>>>>>> 56148071cc6ad9d560ed041ebf06a68af00cee59
+
 
 ### Descrição
 
@@ -34,6 +33,8 @@ Este projeto consiste em um modelo de aprendizado de máquina treinado para reco
 O conjunto de dados para treinamento e teste foi gerado por IA para garantir a precisão e a qualidade do modelo. O modelo foi desenvolvido usando uma arquitetura de rede neural profunda CNN (Convolutional Neural Network).
 
 Para treinar o modelo, foi utilizada a plataforma AWS Sagemaker, que fornece um ambiente escalável e fácil de usar para treinar e implantar modelos de machine learning. Além disso, o modelo treinado e o dataset de inferência foram armazenados em bucket S3 da AWS.
+
+***
 
 ### Execução do Projeto
 
@@ -53,6 +54,3 @@ Para treinar o modelo, foi utilizada a plataforma AWS Sagemaker, que fornece um 
 - [Amazon SageMaker e S3](https://aws.amazon.com/pt/)
 - [Python: NumPy, Matplotlib](https://python.org).
 - [Tensorflow: datasets e Keras](https://www.tensorflow.org/?hl=pt-br)
-
-
-
