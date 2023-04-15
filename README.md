@@ -4,7 +4,7 @@ Avaliação da quinta sprint do programa de bolsas Compass UOL para formação e
 
 ***
 
-# Grupo-2
+## Grupo-2
 
 - [Ana Vitória Louro](https://github.com/anaVitoriaLouro)
 - [Bernardo Lima](https://github.com/belima93)
@@ -12,8 +12,20 @@ Avaliação da quinta sprint do programa de bolsas Compass UOL para formação e
 - [Luciene Godoy](https://github.com/LucieneGodoy)
 
 ***
+<<<<<<< HEAD
 
 [## Rock Paper Scissors AI - Reconhecimento de imagens](https://www.tensorflow.org/datasets/catalog/rock_paper_scissors?hl=pt-br)
+=======
+## Objetivo
+
+Execução de treinamento de dataset (rock_paper_scissor) para posterior reconhecimento.
+
+<div align="center">
+
+![rock-paper-scissor](https://user-images.githubusercontent.com/81330043/232077729-91c7d1e3-5403-48e9-a713-e1dcf7cca685.png)
+
+</div>
+>>>>>>> 56148071cc6ad9d560ed041ebf06a68af00cee59
 
 ### Descrição
 
