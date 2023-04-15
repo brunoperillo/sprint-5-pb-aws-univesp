@@ -3,10 +3,108 @@
 Avaliação da quinta sprint do programa de bolsas Compass UOL para formação em machine learning para AWS.
 
 ***
+## Grupo 4
 
-## Execução (Código Fonte)
+[Carlos Roberto de Souza Camilo ](https://github.com/crobertocamilo)
 
-Proceder o treinamento de um dataset para posterior reconhecimento.
+[Kelly Patricia Lopes Silva](https://github.com/KellyPLSilva)
+
+[Luiz Renato Sassi](https://github.com/luizrsassi)
+
+[Viviane Silva Alves ](https://github.com/Vivianes86)
+
+*****
+## Introdução 
+
+Nessa Sprint, foram abordados os assuntos sobre o uso básico de redes neurais com Python, e uso de machine learning na AWS com o recursos do [Amazon SageMaker](https://aws.amazon.com/pt/pm/sagemaker/) para treinar modelos.  
+Aprendemos os conceitos teóricos/matemáticos, os fundamentos e excecutamos o treinamento de um dataset. 
+O grupo fez o planejamento do projeto atráves de reuniões de alinhamento do contéudo no qual procuramos entender sobre os passos a passos, pesquisas e testes que iriamos trazer para o projeto. Subdividimos as tarefas em readme, analise (deploy e previsões), notebook na AWS e a disponibilização do modelo. 
+***
+## Objetivo 
+
+Treinarmento de um dataset para posterior reconhecimento.
+
+***
+
+## Escopo
+
+Dataset escolhido foi [CIFAR10]() (Canadian Institute for Advanced Research, 10 classes) é um subconjunto de imagens e contém 60.000 imagens coloridas de 32x32. Estão rotuladas em 10 classes mutuamente exclusivas: Avião, Automóvel, Pássaro, Gato, Veado, Cachorro, Sapo, Cavalo, Navio e Caminhão.
+
+
+![imagemCifar10port](https://user-images.githubusercontent.com/88354075/232254787-6c5a4277-3d83-4e33-a7a8-bafb5f1ff1c4.png)
+
+Etapas do processo para treinamento do dataset
+
+1. Coleta de dados, através de imagens com 10 categorias. 
+
+2. Pré - Processamento de dados, onde ocorre o preparo para o treinamento. 
+
+Inclue as tarefas como normalização, redimensionamento de imagens. 
+
+3. Divisão de dados, é dividido em conjunto de treinamento, validação e teste. 
+
+Ocorre aqui os ajustes dos hiperparâmentos do modelo e o conjunto de teste é usado para avaliar o desempenho final do modelo. 
+
+
+4. Escolha do Algoritmo e ou modelo, que será usado para treinar os dados. 
+
+Pode variar pois vai depender do tipo de reconhecimento que o conjunto de dados estiver disponível. 
+
+
+5. Treinamento do modelo
+Ajusta os parâmetros para minimizar a diferença entre as previsões e os rótulos verdadeiros do conjunto. 
+
+
+6. Avaliação do modelo
+Foi feito para evitar que o modelo se ajuste demais aos dados de treinamento e não generalize bem para novos dados. 
+
+7. Teste final do modelo 
+Avaliação no conjunto de teste para avaliar o desempenho.
+
+8. Implantação do modelo
+
+
+## Casos de teste
+Separamos os caso de testes ......
+
+Buscamos trazer prioridades aos temas abordados nos cursos desta Sprint.
+
+
+2cnn+256+256_dropout
+
+2cnn+512_0dropout
+
+2cnn+512_10dropout
+
+2cnn+512_20dropout
+
+2cnn+51+2562_50dropout
+
+2cnn+1024_50dropout
+
+3cnn+512_50dropout
+
+3cnn-128-128-128-50dropout-sigmoid
+
+![3cnn-128-128-128-50dropout-sigmoid](https://user-images.githubusercontent.com/88354075/232256066-de6b7240-747c-4102-b9d6-1b1ad13b5214.png)
+
+Os testes realizados, abordam os seguintes ....
+
+## Dificuldades conhecidas
+
+
+## Como utilizar o sistema
+
+* 
+
+## Referências
+
+[Cifar-10](https://paperswithcode.com/dataset/cifar-10)
+
+
+  - 
+  - 
+
 
 **Especificações**:
 
@@ -17,31 +115,17 @@ Proceder o treinamento de um dataset para posterior reconhecimento.
 
 ***
 
-## O que será avaliado?
 
-- Projeto em produção na AWS
-- Arquivos de configuração utilizados
-- Notebook Python desenvolvido
-- Forma de publicação de códigos no git ao longo do desenvolvimento
-- Organização geral do código fonte
-  - Estrutura de pastas
-  - Estrutura da lógica de negócio
-  - Divisão de responsabilidades em arquivos/pastas distintos
-  - Otimização do código fonte (evitar duplicações de código)
-- Objetividade do README.md
-- Modelo de organização da equipe para o desenvolvimento do projeto
+
+
+
+## pendencias
+
+- Projeto em produção na AWS - *verificar imagem Luis*
+- Arquivos de configuração utilizados - *verificar*
+- Notebook Python desenvolvido *verificar*
+
+
+
 
 ***
-
-## Entrega
-
-- Aceitar o convite do repositório da sprint-5-pb-aws-univesp
-- **O trabalho deve ser feito em grupos de três ou quatro pessoas**
-  - Não repetir formação de grupos já criados em sprints anteriores
-- Criar uma branch no repositório com o formato grupo-número (Exemplo: grupo-1)
-- Subir o trabalho na branch com um README.md
-  - documentar detalhes sobre como a avaliação foi desenvolvida
-  - dificuldades conhecidas
-  - como utilizar o sistema
-  - 🔨 código fonte desenvolvido (Sugestão: pasta `src`)
-- O prazo de entrega é até às 12h do dia 17/04/2023 no repositório do github ([https://github.com/Compass-pb-aws-2023-Univesp/sprint-5-pb-aws-univesp](https://github.com/Compass-pb-aws-2023-Univesp/sprint-5-pb-aws-univesp)).
