@@ -25,13 +25,20 @@ Para treinar o modelo, foi utilizada a plataforma AWS Sagemaker, que fornece um 
 
 ### Execução do Projeto
 
+- Instalações e importações de bibliotecas para o desenvolvimento;
+- Análise exploratória do Dataset em busca de informações relevantes;
+- Preparação dos dados para treinamento do modelo; 
+- Iniciando o treinamento utilizando Keras;
+- Aplicando Hyperparameter Tuning em busca de acurácia maior;
+- Criação e Armazenamento em Bucket S3 na AWS;
+    - O Amazon S3 (Simple Storage Service) é um serviço de armazenamento de objetos da Amazon Web Services (AWS) que fornece escalabilidade, disponibilidade de dados, segurança e desempenho para armazenamento e recuperação de dados na nuvem.
 
 
 ***
 
 ### Ferramentas e Tecnologias Utilizadas
 
-- [AWS SageMaker](https://aws.amazon.com/pt/)
+- [Amazon SageMaker e S3](https://aws.amazon.com/pt/)
 - [Python: NumPy, Matplotlib](https://python.org).
 - [Tensorflow: datasets e Keras](https://www.tensorflow.org/?hl=pt-br)
 
