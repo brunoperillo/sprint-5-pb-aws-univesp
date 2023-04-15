@@ -17,7 +17,15 @@ Avaliação da quinta sprint do programa de bolsas Compass UOL para formação e
 
 ### Descrição
 
-Este projeto se trata de um modelo de aprendizado de máquina que foi treinado para reconhecer o próximo movimento em um jogo de pedra-papel-tesoura, com base no movimento inicial da mão. Todas as imagens de treinamento e teste foram geradas por IA, para garantir a precisão e a qualidade do modelo. 
+Este projeto consiste em um modelo de aprendizado de máquina treinado para reconhecer o movimento em um jogo de pedra-papel-tesoura com base na posição da mão. 
+
+O conjunto de dados para treinamento e teste foi gerado por IA para garantir a precisão e a qualidade do modelo. O modelo foi desenvolvido usando uma arquitetura de rede neural profunda CNN (Convolutional Neural Network).
+
+Para treinar o modelo, foi utilizada a plataforma AWS Sagemaker, que fornece um ambiente escalável e fácil de usar para treinar e implantar modelos de machine learning. Além disso, o modelo treinado e o dataset de inferência foram armazenados em bucket S3 da AWS.
+
+### Execução do Projeto
+
+
 
 ***
 
@@ -27,5 +35,5 @@ Este projeto se trata de um modelo de aprendizado de máquina que foi treinado p
 - [Python: NumPy, Matplotlib](https://python.org).
 - [Tensorflow: datasets e Keras](https://www.tensorflow.org/?hl=pt-br)
 
-***
+
 
