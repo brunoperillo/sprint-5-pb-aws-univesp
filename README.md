@@ -17,7 +17,9 @@ Avaliação da quinta sprint do programa de bolsas Compass UOL para formação e
 ## Introdução 
 
 Nessa Sprint, foram abordados os assuntos sobre o uso básico de redes neurais com Python, e uso de machine learning na AWS com o recursos do [Amazon SageMaker](https://aws.amazon.com/pt/pm/sagemaker/) para treinar modelos.  
+
 Aprendemos os conceitos teóricos/matemáticos, os fundamentos e excecutamos o treinamento de um dataset. 
+
 O grupo fez o planejamento do projeto atráves de reuniões de alinhamento do contéudo no qual procuramos entender sobre os passos a passos, pesquisas e testes que iriamos trazer para o projeto. Subdividimos as tarefas em readme, analise (deploy e previsões), notebook na AWS e a disponibilização do modelo. 
 ***
 ## Objetivo 
@@ -28,7 +30,8 @@ Treinarmento de um dataset para posterior reconhecimento.
 
 ## Escopo
 
-Dataset escolhido foi [CIFAR10]() (Canadian Institute for Advanced Research, 10 classes) é um subconjunto de imagens e contém 60.000 imagens coloridas de 32x32. Estão rotuladas em 10 classes mutuamente exclusivas: Avião, Automóvel, Pássaro, Gato, Veado, Cachorro, Sapo, Cavalo, Navio e Caminhão.
+Dataset escolhido foi [CIFAR10]() (Canadian Institute for Advanced Research, 10 classes) é um subconjunto de imagens e contém 60.000 imagens coloridas de 32x32. 
+Estão rotuladas em 10 classes mutuamente exclusivas: Avião, Automóvel, Pássaro, Gato, Veado, Cachorro, Sapo, Cavalo, Navio e Caminhão.
 
 
 ![imagemCifar10port](https://user-images.githubusercontent.com/88354075/232254787-6c5a4277-3d83-4e33-a7a8-bafb5f1ff1c4.png)
