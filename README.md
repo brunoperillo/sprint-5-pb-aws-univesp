@@ -104,31 +104,15 @@ Os testes realizados, abordam os seguintes ....
 
 [Cifar-10](https://paperswithcode.com/dataset/cifar-10)
 
+Livros: 
+* Redes Neurais - Simon Haykin
 
-  - 
-  - 
+* Preparação e Análise Exploratória de Dados - Rafael G. C. Ferreira; Leandro B. A. de Miranda; Rafael A. Pinto; et al.
 
-
-**Especificações**:
-
-* Com base no notebook apresentado neste tutorial do Tensorflow: <https://www.tensorflow.org/tutorials/keras/classification> (outros padrões como scikit-learn e pytorch também podem ser usados, no caso de exemplos equivalentes);
-* Trocar por outro dataset para treinamento, e **verificar se já não foi escolhido por outro grupo**. Pode ser usado qualquer dataset do Tensorflow (ou similar de outro padrão), conforme mostra esta listagem: <https://www.tensorflow.org/datasets/catalog/overview>;
-* Armazenar o modelo treinado e o dataset de inferência (se desejado ou necessário, de treino/teste também) em bucket S3;
-* Carregar o modelo armazenado para reconhecer um novo exemplo. Observe o exemplo de reconhecimento na seção "Fazendo Previsões" do notebook citado neste capítulo de ebook: <https://www.deeplearningbook.com.br/reconhecimento-de-imagens-com-redes-neurais-convolucionais-em-python-parte-4/>
-
-***
+* Python Para Data Science - Netto, Amilcar; Neto, Francisco
 
 
 
 
 
-## pendencias
 
-- Projeto em produção na AWS - *verificar imagem Luis*
-- Arquivos de configuração utilizados - *verificar*
-- Notebook Python desenvolvido *verificar*
-
-
-
-
-***
