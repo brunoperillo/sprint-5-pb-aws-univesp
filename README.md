@@ -77,7 +77,7 @@ Separamos os caso de testes a partir dos cenários identificados para montar uma
 
 ![WhatsApp Image 2023-04-17 at 08 34 59](https://user-images.githubusercontent.com/88354075/232473930-50b87837-0d9b-42a2-961b-bbce5b30e5ac.jpeg)
 
-Buscamos trazer prioridades aos temas abordados nos cursos desta Sprint.
+* Teste Final
 
 ![WhatsApp Image 2023-04-17 at 08 36 34](https://user-images.githubusercontent.com/88354075/232474361-83614e5f-2df6-4fed-b314-f2d95af214c9.jpeg)
 
@@ -108,7 +108,8 @@ Testes realiazados:
 
 3cnn-128-128-128-50dropout-sigmoid
 
-![3cnn-128-128-128-50dropout-sigmoid](https://user-images.githubusercontent.com/88354075/232256066-de6b7240-747c-4102-b9d6-1b1ad13b5214.png)
+![imageconvergir](https://user-images.githubusercontent.com/88354075/232477314-a6847bc4-2f99-4fad-809f-453871a88488.jpeg)
+
 
 Os testes realizados, abordam os seguintes ....
 
