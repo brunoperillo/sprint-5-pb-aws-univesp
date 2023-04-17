@@ -54,3 +54,9 @@ Para treinar o modelo, foi utilizada a plataforma AWS Sagemaker, que fornece um 
 - [Amazon SageMaker e S3](https://aws.amazon.com/pt/)
 - [Python: NumPy, Matplotlib](https://python.org).
 - [Tensorflow: datasets e Keras](https://www.tensorflow.org/?hl=pt-br)
+
+***
+
+### Dificuldades Registradas
+
+- Familiaridade com novas ferramentas como: SageMaker e Tensorflow;
