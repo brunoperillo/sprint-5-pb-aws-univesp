@@ -1,52 +1,62 @@
 # Avaliação Sprint 5 - Programa de Bolsas Compass UOL / AWS e Univesp
 
-Avaliação da quinta sprint do programa de bolsas Compass UOL para formação em machine learning para AWS.
+Avaliação da [quinta sprint][sprint5main] do programa de bolsas [Compass UOL][compass] para formação em machine learning para [AWS][aws].
 
 ***
 
-## Execução (Código Fonte)
+Este é um projeto de machine learning que usa o conjunto de dados MNIST para treinar um modelo de classificação de imagens de dígitos manuscritos de 0 a 9. O modelo foi treinado usando o Amazon SageMaker.
 
-Proceder o treinamento de um dataset para posterior reconhecimento.
+## Conjunto de Dados MNIST
+O conjunto de dados MNIST consiste em 70.000 imagens de dígitos manuscritos (0 a 9) com um tamanho de 28x28 pixels cada. O conjunto de dados é amplamente utilizado para treinar e testar algoritmos de reconhecimento de padrões e classificação de imagens. 
 
-**Especificações**:
+O conjunto de dados pode ser baixado diretamente do site do MNIST: http://yann.lecun.com/exdb/mnist/
 
-* Com base no notebook apresentado neste tutorial do Tensorflow: <https://www.tensorflow.org/tutorials/keras/classification> (outros padrões como scikit-learn e pytorch também podem ser usados, no caso de exemplos equivalentes);
-* Trocar por outro dataset para treinamento, e **verificar se já não foi escolhido por outro grupo**. Pode ser usado qualquer dataset do Tensorflow (ou similar de outro padrão), conforme mostra esta listagem: <https://www.tensorflow.org/datasets/catalog/overview>;
-* Armazenar o modelo treinado e o dataset de inferência (se desejado ou necessário, de treino/teste também) em bucket S3;
-* Carregar o modelo armazenado para reconhecer um novo exemplo. Observe o exemplo de reconhecimento na seção "Fazendo Previsões" do notebook citado neste capítulo de ebook: <https://www.deeplearningbook.com.br/reconhecimento-de-imagens-com-redes-neurais-convolucionais-em-python-parte-4/>
+<div align="center">
+![MNIST](https://en.wikipedia.org/wiki/MNIST_database#/media/File:MnistExamples.png)
+</div>
+
+## Ambiente
+O projeto foi desenvolvido utilizando o ambiente AWS. Os seguintes serviços da AWS foram usados:
+
+- Amazon S3: para armazenar o conjunto de dados
+- Amazon SageMaker: para treinar e implantar o modelo ML
+
+
+## Modelo
+O modelo de ML usado neste projeto é uma Rede Neural Convolucional (CNN). A CNN foi desenvolvida usando a biblioteca Keras e treinada usando o TensorFlow. O modelo alcançou uma precisão de 93,2% no conjunto de teste.
+
+## Arquivos do Projeto
+- README.md: Este arquivo README.
+- mnist.ipynb: O notebook Jupyter que contém o código para carregar o conjunto de dados, treinar o modelo e avaliar a precisão do modelo.
+- requirements.txt: Arquivo com as dependências necessárias para executar o notebook.
+
+## Como Executar o Projeto
+1 - Faça o login na sua conta do Amazon SageMaker.
+2 - Crie um novo notebook instance e selecione o tipo de instância e a imagem de ambiente que deseja usar.
+3 - Faça o upload do arquivo mnist.ipynb para o notebook instance.
+4 - Abra o notebook e execute as células de código na ordem indicada.
+
+## Referências
+- Conjunto de dados MNIST: http://yann.lecun.com/exdb/mnist/
+- Amazon SageMaker: https://aws.amazon.com/sagemaker/
+- JupyterLab Notebook: https://jupyter.org/
+
+
+## Dificuldades
+- XXXXXXX.
+- XXXXXX.
 
 ***
-
-## O que será avaliado?
-
-- Projeto em produção na AWS
-- Arquivos de configuração utilizados
-- Notebook Python desenvolvido
-- Forma de publicação de códigos no git ao longo do desenvolvimento
-- Organização geral do código fonte
-  - Estrutura de pastas
-  - Estrutura da lógica de negócio
-  - Divisão de responsabilidades em arquivos/pastas distintos
-  - Otimização do código fonte (evitar duplicações de código)
-- Objetividade do README.md
-- Modelo de organização da equipe para o desenvolvimento do projeto
-
-***
-
-## Entrega
-
-- Aceitar o convite do repositório da sprint-5-pb-aws-univesp
-- **O trabalho deve ser feito em grupos de três ou quatro pessoas**
-  - Não repetir formação de grupos já criados em sprints anteriores
-- Criar uma branch no repositório com o formato grupo-número (Exemplo: grupo-1)
-- Subir o trabalho na branch com um README.md
-  - documentar detalhes sobre como a avaliação foi desenvolvida
-  - dificuldades conhecidas
-  - como utilizar o sistema
-  - 🔨 código fonte desenvolvido (Sugestão: pasta `src`)
-- O prazo de entrega é até às 12h do dia 17/04/2023 no repositório do github ([https://github.com/Compass-pb-aws-2023-Univesp/sprint-5-pb-aws-univesp](https://github.com/Compass-pb-aws-2023-Univesp/sprint-5-pb-aws-univesp)).
 
 
 ## Desenvolvedores do projeto
 | [<img src="https://avatars.githubusercontent.com/u/25699466?v=4" width=115><br><sub>Bruno Monserrat Perillo</sub>](https://github.com/brunoperillo) | [<img src="https://avatars.githubusercontent.com/u/124359272?v=4" width=115><br><sub>Irati Gonçalves Maffra</sub>](https://github.com/IratiMaffra) | [<img src="https://avatars.githubusercontent.com/u/35769020?v=4" width=115><br><sub>Marcio Lima Brunelli</sub>](https://github.com/ml-brunelli) | [<img src="https://avatars.githubusercontent.com/u/73674662?v=4" width=115><br><sub>Marcos Vinicios Nativo de Carvalho</sub>](https://github.com/onativo) | [<img src="https://avatars.githubusercontent.com/u/94749597?v=4" width=115><br><sub>O'Dhara Maggi</sub>](https://github.com/odharamaggi) |
 | :---: | :---: | :---: |:---: |:---: |
+
+
+***
+   [kernel]: <https://pt.wikipedia.org/wiki/N%C3%BAcleo_(sistema_operacional)>
+   [compass]: <https://compass.uol/en/home/>
+   [aws]: <https://aws.amazon.com/pt/>
+   [sprint5main]: <https://github.com/Compass-pb-aws-2023-Univesp/sprint-5-pb-aws-univesp>
+   [endpoint]: <http://54.163.32.88:9000/>
