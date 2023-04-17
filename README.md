@@ -11,9 +11,8 @@ O conjunto de dados MNIST consiste em 70.000 imagens de dígitos manuscritos (0 
 
 O conjunto de dados pode ser baixado diretamente do site do MNIST: http://yann.lecun.com/exdb/mnist/
 
-<div align="center">
-![MNIST](https://en.wikipedia.org/wiki/MNIST_database#/media/File:MnistExamples.png)
-</div>
+![MNIST](https://upload.wikimedia.org/wikipedia/commons/2/27/MnistExamples.png)
+
 
 ## Ambiente
 O projeto foi desenvolvido utilizando o ambiente AWS. Os seguintes serviços da AWS foram usados:
