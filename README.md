@@ -30,7 +30,7 @@ Execução de treinamento de dataset [rock_paper_scissor](https://www.tensorflow
 
 Este projeto consiste em um modelo de aprendizado de máquina treinado para reconhecer o movimento em um jogo de pedra-papel-tesoura com base na posição da mão. 
 
-O conjunto de dados para treinamento e teste foi gerado por IA para garantir a precisão e a qualidade do modelo. O modelo foi desenvolvido usando uma arquitetura de rede neural profunda CNN (Convolutional Neural Network).
+O conjunto de dados para treinamento e teste foram gerados por IA para garantir a precisão e a qualidade do modelo. O modelo foi desenvolvido usando uma arquitetura de rede neural profunda CNN (Convolutional Neural Network).
 
 Para treinar o modelo, foi utilizada a plataforma AWS Sagemaker, que fornece um ambiente escalável e fácil de usar para treinar e implantar modelos de machine learning. Além disso, o modelo treinado e o dataset de inferência foram armazenados em bucket S3 da AWS.
 
@@ -42,8 +42,10 @@ Para treinar o modelo, foi utilizada a plataforma AWS Sagemaker, que fornece um 
 - Análise exploratória do Dataset em busca de informações relevantes;
 - Preparação dos dados para treinamento do modelo; 
 - Iniciando o treinamento utilizando Keras;
-- Aplicando Hyperparameter Tuning em busca de acurácia maior;
-- Criação e Armazenamento em Bucket S3 na AWS;
+- Aplicando técnica de Hyperparameter Tuning buscando acurácia maior;
+- Modelo obteve acurácia de:
+    - Aplicando Hypermarameter Tuning - 81%
+- Criação e Armazenamento do modelo em Bucket S3 na AWS;
     - O Amazon S3 (Simple Storage Service) é um serviço de armazenamento de objetos da Amazon Web Services (AWS) que fornece escalabilidade, disponibilidade de dados, segurança e desempenho para armazenamento e recuperação de dados na nuvem.
 
 
@@ -52,8 +54,10 @@ Para treinar o modelo, foi utilizada a plataforma AWS Sagemaker, que fornece um 
 ### Ferramentas e Tecnologias Utilizadas
 
 - [Amazon SageMaker e S3](https://aws.amazon.com/pt/)
-- [Python: NumPy, Matplotlib](https://python.org).
 - [Tensorflow: datasets e Keras](https://www.tensorflow.org/?hl=pt-br)
+- [Amazon SageMaker Studio Lab](https://studiolab.sagemaker.aws/)
+- [Google Colab](https://colab.research.google.com/)
+- [Python: NumPy, Matplotlib](https://python.org).
 
 ***
 
