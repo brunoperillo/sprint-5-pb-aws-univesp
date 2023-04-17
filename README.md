@@ -42,7 +42,7 @@ O modelo de ML usado neste projeto é uma Rede Neural Convolucional (CNN). A CNN
 
 
 ## Dificuldades
-- XXXXXXX.
+- Definir os parâmetros para execução da base de treinamento.
 - XXXXXX.
 
 ***
