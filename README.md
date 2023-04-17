@@ -44,7 +44,7 @@ Para treinar o modelo, foi utilizada a plataforma AWS Sagemaker, que fornece um 
 - Iniciando o treinamento utilizando Keras;
 - Aplicando técnica de Hyperparameter Tuning buscando acurácia maior;
 - Modelo obteve acurácia de:
-    - Aplicando Hypermarameter Tuning - 81%
+    - Aplicando Hypermarameter Tuning - 79%
 - Criação e Armazenamento do modelo em Bucket S3 na AWS;
     - O Amazon S3 (Simple Storage Service) é um serviço de armazenamento de objetos da Amazon Web Services (AWS) que fornece escalabilidade, disponibilidade de dados, segurança e desempenho para armazenamento e recuperação de dados na nuvem.
 
