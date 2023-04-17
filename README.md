@@ -3,7 +3,7 @@
 Avaliação da quinta Sprint do programa de bolsas Compass UOL para formação em machine learning para AWS.
 
 ***
-## Grupo 4
+## Grupo 3
 
 [Carlos Roberto de Souza Camilo ](https://github.com/crobertocamilo)
 
@@ -68,7 +68,7 @@ Avaliação da qualidade final no conjunto de teste (10.000 imagens) para avalia
 Atráves desse serviço é possível preparar, criar, treinar e implantar modelos de *machine learning* de alta qualidade rapidamente, reunindo um amplo conjunto de recursos criados especificamente para este tipo de algoritmos. Fornece um conjunto de soluções para os casos de uso mais comuns e que podem ser implantadas prontamente com apenas alguns cliques.
 
 
-## Casos de teste
+## Desenvolvimento
 
 Para definição da arquitetura da rede neural, foram realizados dezenas de teste, abordando deste o algoritmo de otimização, aplicação e nível do algoritmo de regularização (*dropout*), e outros parâmetros da rede (*batch size*), até a arquitetura da rede em si (número de camadas - CNN e MLP - e quantidade de neurônios). Os resultados dos principais testes é apresentado na pasta [src/tests](https://github.com/Compass-pb-aws-2023-Univesp/sprint-5-pb-aws-univesp/tree/grupo-3/src/tests). 
 
