@@ -29,6 +29,8 @@ O projeto foi desenvolvido utilizando o ambiente AWS. Os seguintes serviços da 
 ## Modelo
 O modelo de ML usado neste projeto é uma Rede Neural Convolucional (CNN). A CNN foi desenvolvida usando a biblioteca Keras e treinada usando o TensorFlow. 
 
+![model](https://www.insightlab.ufc.br/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2021/07/2.jpg.webp)
+
 **O modelo obteve acurácia de 99,68% no conjunto de treino e 97,85% no conjunto de teste.**
 
 
@@ -40,8 +42,11 @@ O modelo de ML usado neste projeto é uma Rede Neural Convolucional (CNN). A CNN
 - Após o treinamento e teste da rede, faça download do notebook [tensorflow-sagemaker.ipynb](/src/tensorflow-sagemaker.ipynb) para salvar o modelo dentro do Bucket S3 na AWS.
 
 ## Referências
-- Amazon SageMaker: https://aws.amazon.com/sagemaker/
-- JupyterLab Notebook: https://jupyter.org/
+- [TensorFlow](https://www.tensorflow.org/datasets/catalog/overview?hl=pt-br)
+- [MNIST](https://www.tensorflow.org/datasets/catalog/mnist?hl=pt-br)
+- [CNN](https://en.wikipedia.org/wiki/Convolutional_neural_network])
+- [Amazon SageMaker](https://aws.amazon.com/sagemaker/)
+- [JupyterLab Notebook](https://jupyter.org/)
 
 
 ## Dificuldades
