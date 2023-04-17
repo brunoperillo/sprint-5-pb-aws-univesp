@@ -9,7 +9,12 @@ Este é um projeto de machine learning que usa o conjunto de dados MNIST para tr
 ## Conjunto de Dados MNIST
 O conjunto de dados MNIST consiste em 70.000 imagens de dígitos manuscritos (0 a 9) com um tamanho de 28x28 pixels cada. O conjunto de dados é amplamente utilizado para treinar e testar algoritmos de reconhecimento de padrões e classificação de imagens. 
 
-O conjunto de dados pode ser baixado diretamente do site do MNIST: http://yann.lecun.com/exdb/mnist/
+O conjunto MNIST pode ser importado diretamente do TensorFlow com o comando:
+
+``` 
+import tensorflow
+from tensorflow.keras.datasets import mnist
+```
 
 ![MNIST](https://upload.wikimedia.org/wikipedia/commons/2/27/MnistExamples.png)
 
@@ -17,39 +22,31 @@ O conjunto de dados pode ser baixado diretamente do site do MNIST: http://yann.l
 ## Ambiente
 O projeto foi desenvolvido utilizando o ambiente AWS. Os seguintes serviços da AWS foram usados:
 
-- Amazon S3: para armazenar o conjunto de dados
-- Amazon SageMaker: para treinar e implantar o modelo ML
+- Amazon SageMaker: treinamento e implantação do modelo de ML.
+- Amazon S3: armazenamento do modelo treinado.
 
 
 ## Modelo
-O modelo de ML usado neste projeto é uma Rede Neural Convolucional (CNN). A CNN foi desenvolvida usando a biblioteca Keras e treinada usando o TensorFlow. O modelo alcançou uma precisão de 93,2% no conjunto de teste.
+O modelo de ML usado neste projeto é uma Rede Neural Convolucional (CNN). A CNN foi desenvolvida usando a biblioteca Keras e treinada usando o TensorFlow. 
 
-## Arquivos do Projeto
-- README.md: Este arquivo README.
-- mnist.ipynb: O notebook Jupyter que contém o código para carregar o conjunto de dados, treinar o modelo e avaliar a precisão do modelo.
-- requirements.txt: Arquivo com as dependências necessárias para executar o notebook.
+**O modelo obteve acurácia de 99,68% no conjunto de treino e 97,85% no conjunto de teste.**
+
+
 
 ## Como Executar o Projeto
-   - Faça o login na sua conta do Amazon SageMaker.
-
-   - Selecione a instância ml.p2.xlarge e imagem TensorFlow 2.6 + Python 3.8 CPU Optimized.
-
-   - Faça o upload do notebook para seu ambiente de desenvolvimento.
-
-   - Abra o notebook e execute as células de código.
-
-Lembre-se de criar um Bucket S3 para armazenar o 
-seu modelo treinado e edite as variáveis do código de acordo com suas necessidades.
+- Faça o login na sua conta do Amazon SageMaker.
+- Crie um novo notebook instance e selecione o tipo de instância e a imagem de ambiente que deseja usar.
+- Faça download do notebook [tensorflow.ipynb](/src/tensorflow.ipynb) e execute as células de código na ordem indicada.
+- Após o treinamento e teste da rede, faça download do notebook [tensorflow-sagemaker.ipynb](/src/tensorflow-sagemaker.ipynb) para salvar o modelo dentro do Bucket S3 na AWS.
 
 ## Referências
-- Conjunto de dados MNIST: http://yann.lecun.com/exdb/mnist/
 - Amazon SageMaker: https://aws.amazon.com/sagemaker/
 - JupyterLab Notebook: https://jupyter.org/
 
 
 ## Dificuldades
 - Definir os parâmetros para execução da base de treinamento.
-- XXXXXX.
+- Estrutura e funcionamento da rede treinada.
 
 ***
 
