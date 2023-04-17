@@ -66,12 +66,31 @@ Avaliação no conjunto de teste para avaliar o desempenho.
 
 8. Implantação do modelo
 
+Utilizando o Sagemaker 
+
+Atráves desse serviço é possível preparar, criar, treinar e implantar modelos de machine learning de alta qualidade rapidamente, reunindo um amplo conjunto de recursos criados especificamente para machine learning. Fornece um conjunto de soluções para os casos de uso mais comuns e que podem ser implantadas prontamente com apenas alguns cliques.
+
 
 ## Casos de teste
-Separamos os caso de testes ......
+
+Separamos os caso de testes a partir dos cenários identificados para montar uma tabela de casos de teste, onde a quantidade de casos de testes varia de acordo com as validações existentes nos cenários. A união das informações desta tabela como os passos percorridos nos fluxos do casos de usos (resultado da tabela gerada na segunda etapa) produzindo assim a planilha de especificação de Testes.
+
+![WhatsApp Image 2023-04-17 at 08 34 59](https://user-images.githubusercontent.com/88354075/232473930-50b87837-0d9b-42a2-961b-bbce5b30e5ac.jpeg)
 
 Buscamos trazer prioridades aos temas abordados nos cursos desta Sprint.
 
+![WhatsApp Image 2023-04-17 at 08 36 34](https://user-images.githubusercontent.com/88354075/232474361-83614e5f-2df6-4fed-b314-f2d95af214c9.jpeg)
+
+
+Testes realiazados: 
+
+2cnn+128+128+128_20dropout
+
+2cnn+128+128+128_20dropout
+
+2cnn+128+128+128_50dropout-0dropout-cnn
+
+2cnn+512+256_50dropout
 
 2cnn+256+256_dropout
 
@@ -95,11 +114,29 @@ Os testes realizados, abordam os seguintes ....
 
 ## Dificuldades conhecidas
 
+* Familiaridade com SageMaker, Tensorflow e Kaggle. 
+
+* Montagem do modelo para treinar os testes.
 
 ## Como utilizar o sistema
 
-* 
+Entrar na sua conta do Amazon SageMaker, criar um novo notebook selecionando o tipo de instância e ambiente que irá usar. 
+Na sequência fazer o upload do arquivo [Cifar-10](https://www.tensorflow.org/api_docs/python/tf/keras/datasets/cifar10/load_data). 
+As instalações e importações de biblioteca já estão no modelo. 
+Precisará executar as cédulas de código e aguardar o sistema rodar. 
 
+***
+## Ferramentas e Tecnologias Utilizadas 
+
+[Visual Studio Code](https://code.visualstudio.com/)
+
+[Amazon Sagemaker](https://aws.amazon.com/pt/sagemaker/)
+
+[Kaggle](https://www.kaggle.com/datasets)
+
+[Google colab](https://colab.research.google.com/)
+
+[Python](https://www.python.org/)
 ## Referências
 
 [Cifar-10](https://paperswithcode.com/dataset/cifar-10)
@@ -111,7 +148,7 @@ Livros:
 
 * Python Para Data Science - Netto, Amilcar; Neto, Francisco
 
-
+****
 
 
 
