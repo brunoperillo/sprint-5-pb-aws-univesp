@@ -30,10 +30,16 @@ O modelo de ML usado neste projeto é uma Rede Neural Convolucional (CNN). A CNN
 - requirements.txt: Arquivo com as dependências necessárias para executar o notebook.
 
 ## Como Executar o Projeto
-1 - Faça o login na sua conta do Amazon SageMaker.
-2 - Crie um novo notebook instance e selecione o tipo de instância e a imagem de ambiente que deseja usar.
-3 - Faça o upload do arquivo mnist.ipynb para o notebook instance.
-4 - Abra o notebook e execute as células de código na ordem indicada.
+   - Faça o login na sua conta do Amazon SageMaker.
+
+   - Selecione a instância ml.p2.xlarge e imagem TensorFlow 2.6 + Python 3.8 CPU Optimized.
+
+   - Faça o upload do notebook para seu ambiente de desenvolvimento.
+
+   - Abra o notebook e execute as células de código.
+
+Lembre-se de criar um Bucket S3 para armazenar o 
+seu modelo treinado e edite as variáveis do código de acordo com suas necessidades.
 
 ## Referências
 - Conjunto de dados MNIST: http://yann.lecun.com/exdb/mnist/
